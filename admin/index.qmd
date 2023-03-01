@@ -1,7 +1,61 @@
 ---
-title: "index"
+title: "Team meeting"
+date: "2023-03-01"
 ---
 
-## Quarto
+# Agenda
 
-index page for quarto project
+1.	People intros
+1.	Project intros: the tool set and our 3 case studies,
+1.	Assigning tasks and talking about hours,
+1.	Introducing you to the command line terminal. This is where our project work will be conducted.
+1.	Installing tool set and related software:
+    a.	choco(PC), or homebrew (Mac),
+    a.	git,
+    a.	vscode,
+    a.	quarto,
+    a.	pyenv,
+    a.	poetry,
+    a.	python
+1.	Testing software and creating first quarto document.
+1.	The three project repositories:
+    a.	CS department (syllabi and outlines, web and PDF)
+    a.	CMSC 508 (class materials, web)
+    a.	Overlay (financial reporting, PPT and PDF)
+
+# Team members and Bios
+
+Resumes for team members can be found in [this PDF](assets/team-member-resumes.pdf).
+
+
+Taiasia Napier - 
+
+Inho Park - 
+
+Nitin Kanuri - 
+
+Zach McDonough - 
+
+Moses Farley - 
+
+William Benton - 
+
+John Leonard - Dr. Leonard is a professor of computer science and co-founder of the Software for Social Good VIP. Dr. Leonard teaches classes in databases (back end) and user interfaces (front and and API development). Dr. Leonard first taught a class in FORTRAN at Irvine Valley College (Orange County, CA) in 1985. He received his BS, MS and PhD degrees from the University of California, Irvine in 1993, 1986 and 1991 respectively. Dr. Leonard joined the faculty of the School of Civil and Environmental Engineering at Georgia Institute of Technology in 1993, conducting research and teaching in traffic and transportation systems modeling, and serving as Associate Dean for Finance and Administration in their College of Engineering. Dr. Leonard joined the faculty of Computer Science at VCU in 2016 and served as Executive Dean of the College of Engineering for six years.
+
+# Concepts and skills to learn
+
+- Basic document creation
+- Writing to different output formats
+- Themeing for different output formats
+
+At the end of this project, team members will be well versed in using quarto, generating quarto documents and websites, creating quarto themes, and designing quarto work flows.
+
+# Case studies
+
+Skills will be refined through focus on three specific case studies.
+
+1. Individual course web site - The team will develop consistent themes that can be applied to a CMSC course for all the different course materials including outline, syllabus, lecture notes, homework assignments, POGILS, and a wrapper web site. This case study will output in DOC, HTML, PPTX and PDF formats.
+
+1. CMSC-wide course site - The team will create a CMSC-wide web site that lists all courses taught by CMSC and provides links to course descriptions, syllabi and outlines. The team will also create a cross-course map of topics and courses, so that faculty and students can quickly see what topics are taught in what courses. This case study will output in web site format.
+
+1. Corporate reporting - The team will convert an existing corporate report into a quarto-created document, creating "variables" at the topic of the document to permit changing of data to include in figures, and changing the underlying document theme to meet the needs of different customers. This case study will output in PPTX and PDF.
