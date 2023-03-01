@@ -18,10 +18,44 @@ date: "2023-03-01"
     a.	poetry,
     a.	python
 1.	Testing software and creating first quarto document.
-1.	The three project repositories:
-    a.	CS department (syllabi and outlines, web and PDF)
-    a.	CMSC 508 (class materials, web)
-    a.	Overlay (financial reporting, PPT and PDF)
+1.	The four project repositories: <https://github.com/orgs/ssgvip/repositories>
+    a.	[CS department (syllabi and outlines, web and PDF)](https://github.com/ssgvip/ssgvip-quarto-cmsc-courses)
+    a.	[CMSC 508 (class materials, web)](https://github.com/lowkeylabs/cmsc475-202320-materials)
+    a.	[Overlay (financial reporting, PPT and PDF)](https://github.com/ssgvip/ssgvip-quarto-overlay-finreport)
+    a.  [Project admin sandbox](https://github.com/ssgvip/ssgvip-quarto-sandbox)
+
+
+# Concepts and skills to learn
+
+- Basic document creation
+- Writing to different output formats
+- Themeing for different output formats
+
+At the end of this project, team members will be well versed in using quarto, generating quarto documents and websites, creating quarto themes, and designing quarto work flows.
+
+Team members will also be familiar with GIT and GITHUB, and maybe Python programming.
+
+# Case studies
+
+Skills will be refined through focus on three specific case studies.
+
+1. Individual course web site - The team will develop consistent themes that can be applied to a CMSC course for all the different course materials including outline, syllabus, lecture notes, homework assignments, POGILS, and a wrapper web site. This case study will output in DOC, HTML, PPTX and PDF formats.
+
+1. CMSC-wide course site - The team will create a CMSC-wide web site that lists all courses taught by CMSC and provides links to course descriptions, syllabi and outlines. The team will also create a cross-course map of topics and courses, so that faculty and students can quickly see what topics are taught in what courses. This case study will output in web site format.
+
+1. Corporate reporting - The team will convert an existing corporate report into a quarto-created document, creating "variables" at the topic of the document to permit changing of data to include in figures, and changing the underlying document theme to meet the needs of different customers. This case study will output in PPTX and PDF.
+
+1. Project administration - The team will use quarto to document and manage this project. This case study will output in HTML and web site format.
+
+# Schedules and meetings
+
+1. Next meeting with *Overlay Shares* is Wednesday, March 14 at 1pm via "Vonage" service.
+1. Spring break is next week.
+
+1. Best way to stay in contact?  DISCORD?
+1. Best time to meet as a group?
+1. Best way to distribute work?
+1. Should we create a schedule mapping out the next five weeks?
 
 # Team members and Bios
 
@@ -41,21 +75,3 @@ Moses Farley -
 William Benton - 
 
 John Leonard - Dr. Leonard is a professor of computer science and co-founder of the Software for Social Good VIP. Dr. Leonard teaches classes in databases (back end) and user interfaces (front and and API development). Dr. Leonard first taught a class in FORTRAN at Irvine Valley College (Orange County, CA) in 1985. He received his BS, MS and PhD degrees from the University of California, Irvine in 1993, 1986 and 1991 respectively. Dr. Leonard joined the faculty of the School of Civil and Environmental Engineering at Georgia Institute of Technology in 1993, conducting research and teaching in traffic and transportation systems modeling, and serving as Associate Dean for Finance and Administration in their College of Engineering. Dr. Leonard joined the faculty of Computer Science at VCU in 2016 and served as Executive Dean of the College of Engineering for six years.
-
-# Concepts and skills to learn
-
-- Basic document creation
-- Writing to different output formats
-- Themeing for different output formats
-
-At the end of this project, team members will be well versed in using quarto, generating quarto documents and websites, creating quarto themes, and designing quarto work flows.
-
-# Case studies
-
-Skills will be refined through focus on three specific case studies.
-
-1. Individual course web site - The team will develop consistent themes that can be applied to a CMSC course for all the different course materials including outline, syllabus, lecture notes, homework assignments, POGILS, and a wrapper web site. This case study will output in DOC, HTML, PPTX and PDF formats.
-
-1. CMSC-wide course site - The team will create a CMSC-wide web site that lists all courses taught by CMSC and provides links to course descriptions, syllabi and outlines. The team will also create a cross-course map of topics and courses, so that faculty and students can quickly see what topics are taught in what courses. This case study will output in web site format.
-
-1. Corporate reporting - The team will convert an existing corporate report into a quarto-created document, creating "variables" at the topic of the document to permit changing of data to include in figures, and changing the underlying document theme to meet the needs of different customers. This case study will output in PPTX and PDF.
