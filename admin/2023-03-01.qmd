@@ -1,52 +1,9 @@
 ---
 title: "Team meeting"
-date: "2023-03-14"
+date: "2023-03-01"
 ---
 
-## Agenda (3/14/2023)
-
-1. Meeting with Overlay on Friday, 3/17, 1pm.
-    a. Meeting video link: <https://meetings.vonage.com/924821612>
-    a. Friday agenda:
-        1. demo tool set.
-            a. Show examples of PDF, HTML and PPTX
-            a. discuss pros and cons of each
-        1. ask questions:
-            a. what output is preferred? PDF? PPTX?
-            a. data were mentioned, do you have spreadsheet or other source?
-            a. other templates beside Bison?
-1. Review of activities
-    a. Install software (see previous agenda)
-    a. Discuss team skills and capabililties
-        1. Anyone with python coding skills?
-    a. Discuss project needs
-        1. Overlay (ssgvip-quarto-overlay-finreport)
-            a. create PPT template and demo example with appropriatly styled fonts, etc.
-            a. Create Reveal/HTML template and example
-            a. Create Beamer template and example
-        1. CMSC (ssgvip-quarto-cmsc-courses)
-            a. Quarto web site with links to existing docs
-            a. Create QMD for each PDF
-            a. Incorporate data from XLSX.
-        1. CMSC 475 (ssgvip-quarto-sandbox)
-            a. Create into presentation to quarto
-            a. Discuss getting started
-            a. Include figures that show inputs / outputs
-            a. (Generally, create presentations that teach quarto!)
-1. Assignment of tasks
-    a. Overlay PPTX lead - PPTX template creator, dive into style guide, edit/update template and generate document that looks like their example
-    a. Overlay Reveal/HTML lead - must learn HTML/Reveal templating (CSS is a useful skill!)
-    a. Overlay BEAMER lead - must learn LaTeX, and create custom style. (difficult!)
-    a. CMSC lead - Create QMD files for each class. Lots of cut and paste.
-
-    - Zach:
-    - Inho:
-    - Nitin:
-    - Moses:
-    - Taiasia:
-
-
-## Agenda (3/1/2023)
+# Agenda
 
 1.	People intros
 1.	Project intros: the tool set and our 3 case studies,
@@ -68,7 +25,7 @@ date: "2023-03-14"
     a.  [Project admin sandbox](https://github.com/ssgvip/ssgvip-quarto-sandbox)
 
 
-## Concepts and skills to learn
+# Concepts and skills to learn
 
 - Basic document creation
 - Writing to different output formats
@@ -78,7 +35,7 @@ At the end of this project, team members will be well versed in using quarto, ge
 
 Team members will also be familiar with GIT and GITHUB, and maybe Python programming.
 
-## Case studies
+# Case studies
 
 Skills will be refined through focus on three specific case studies.
 
@@ -90,7 +47,7 @@ Skills will be refined through focus on three specific case studies.
 
 1. Project administration - The team will use quarto to document and manage this project. This case study will output in HTML and web site format.
 
-## Schedules and meetings
+# Schedules and meetings
 
 1. Next meeting with *Overlay Shares* is Wednesday, March 14 at 1pm via "Vonage" service.
 1. Spring break is next week.
@@ -100,7 +57,7 @@ Skills will be refined through focus on three specific case studies.
 1. Best way to distribute work?
 1. Should we create a schedule mapping out the next five weeks?
 
-## Team members and Bios
+# Team members and Bios
 
 Resumes for team members can be found in [this PDF](assets/team-member-resumes.pdf).
 
@@ -109,11 +66,11 @@ Taiasia Napier -
 
 Inho Park - Inho is a junior student currently pursuing BFA in Graphic Design at VCUarts. He was born in South Korea, and first came to America in 2018 to study at VCU. In 2019, he left VCU to serve in the Korean military. There, he served as a human resource specialist in the US-Korea liaison office and later as a team leader for 18 soldiers in US-Korea Combined 2nd Infantry Division.After he was discharged in 2021, he returned to VCU and has been actively building his career as a UX/UI designer in the digital product innovation field. Now he is leading a collaborative software consulting project for The Routing Company and VCU Parking & Transportation to improve software solution for VCU's student transit service, VCU RamSafe.  
 
-Nitin Kanuri - Nitin Kanuri is a freshman student studying business management on the predental track. Nitin was born and raised in the Richmond area and is familiar with VCU. Nitin's research interests include studying the applications of machine learning on dental specialties such as oral and maxillofacial surgery and oral and maxillofacial radiology. Nitin is currently in the eight year guaranteed admissions program for dentistry, and hopes to apply to the VCU Oral and Maxillofacial Surgery residency at the completion of his eight year program. Nitin's linkedin is: [LinkedIn](www.linkedin.com/in/nitinkanuri)
+Nitin Kanuri - Nitin Kanuri is a feshman student studying business management on the predental track. Nitin was born and raised in the Richmond area and is familiar with VCU. Nitin's research interests include studying the applications of machine learning on dental specialties such as oral and maxillofacial surgery and oral and maxillofacial radiology. Nitin is currently in the eight year guaranteed admissions program for dentistry, and hopes to apply to the VCU Oral and Maxillofacial Surgery residency at the completion of his eight year program. Nitin's linkedin is: [LinkedIn](www.linkedin.com/in/nitinkanuri)
 
 Zach McDonough - 
 
-Moses Farley - Moses is a post baccalaureate student studying Computer Science. He earned his bachelor's degree in economics from William and Mary and is interested in the intersection between computer science, machine learning, and environmental science/environmental economics.
+Moses Farley - 
 
 William Benton - 
 
