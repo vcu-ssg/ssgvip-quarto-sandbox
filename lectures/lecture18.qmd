@@ -1,0 +1,56 @@
+---
+title: "Mobile App Development (7)"
+lecture-number: 18
+date: 2023-02-27
+---
+
+
+## Housekeeping
+
+- Today - Walk throughs of some examples
+- Homework 6 - new deadline: Sunday, March 19
+- NO LATE ASSIGNMENTS!
+
+
+## Checklist for today {.smaller}
+
+::::{.columns}
+
+:::{.column}
+- Create fresh app
+- Add an image
+- Add a card
+- Create a screen component
+- Move component to separate file
+- Create global style file
+:::
+
+
+:::{.column}
+- Add data structure
+- Connect Image to data structure
+- Add pressable button
+- Create my button component
+- Add props to change name
+- Create flexible number of buttons
+:::
+
+
+::::
+
+## Helpers
+
+- Card - React Native elements
+    <https://reactnativeelements.com/docs/1.2.0/card>
+- Pressable - core component
+    <https://reactnative.dev/docs/pressable>
+- Bottom navigation and screens
+    <https://reactnavigation.org/docs/bottom-tab-navigator/>
+
+
+## {background-color="black"}
+
+### Final thoughts
+
+- Questions? :question:    Post to discord! :grin:
+

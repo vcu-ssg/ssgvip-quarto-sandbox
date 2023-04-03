@@ -1,0 +1,25 @@
+---
+title: "Mobile App Development (14)"
+lecture-number: 25
+date: 2023-03-22
+---
+
+
+## Housekeeping
+
+- Today - more snacks with sample code
+
+
+## timer and stopwatch
+
+<div data-snack-id="@jleonard99/stopwatch-and-timer" data-snack-platform="web" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#F9F9F9;border:1px solid var(--color-border);border-radius:4px;height:505px;width:100%"></div>
+<script async src="https://snack.expo.dev/embed.js"></script>
+
+## Async data query
+
+<div data-snack-id="@jleonard99/using-an-api" data-snack-platform="web" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#F9F9F9;border:1px solid var(--color-border);border-radius:4px;height:505px;width:100%"></div>
+<script async src="https://snack.expo.dev/embed.js"></script>
+
+## {background-color="black"}
+
+

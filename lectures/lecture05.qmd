@@ -1,0 +1,54 @@
+---
+title: "Design Process and Practice"
+lecture-number: 5
+date: 2023-01-27
+
+# References
+#   Emoji picker: drops in clipboard; alternate skin tones!
+#   https://github-emoji-picker.vercel.app/
+---
+
+## Housekeeping
+
+- Get those old POGILs in!
+- Homework 2 due Sunday (early credit for Friday)
+
+
+## Practice {.smaller}
+
+::::{.columns}
+
+:::{.column}
+
+**Problem**: I struggle to recall student names. It's kind of embarrasing.
+
+To help, Banner provides
+instructors with a picture list of faces (JPG are findable.) This isn't enough!
+
+There has to be a better way!  :cry:
+
+:::
+
+:::{.column .absolute top=0 right=0}
+
+![](assets/student-pictures-example.png)
+
+:::
+
+::::
+
+
+## Practice 
+
+| Discover | Define | Develop | Deliver |
+|:--------:|:------:|:-------:|:-------:|
+
+
+: {tbl-colwidths="[25,25,25,25]"}
+
+## {background-color="black"}
+
+### Final thoughts
+
+- Questions? :question:    Post to discord! :grin:
+

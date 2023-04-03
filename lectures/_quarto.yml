@@ -1,0 +1,40 @@
+course-title: "CMSC 475 - Design of User Interfaces"
+subtitle: "Lecture {{< meta lecture-number >}}"
+project:
+  title: "CMSC 475 - Design of User Interfaces"
+  output-dir: ../docs/
+date-format: "D MMM YYYY - dddd"
+from: markdown+emoji
+format:
+    revealjs:
+        toc: true
+        ## hardcoding these to 0, 1920, 1080 fills the screen
+        # https://quarto.org/docs/presentations/revealjs/advanced.html#presentation-size
+        # width: 1050; height: 700; margin: 0.1 (factor of display size to remain blank)
+        margin: 0.05
+        #width: 1920
+        #height: 1080
+
+        # beige blood dark default league moon night serif simple sky solarized
+        theme: [default, lectures.scss]
+        logo: assets/coelogo.png
+        footer: "{{< meta course-title >}}"
+        chalkboard: true
+#        self-contained: true
+        menu:
+            side: right
+            width: wide
+#        embed-resources: true
+
+        revealjs-plugins:
+            plugins:
+                - fullscreen
+        data-fullscreen: true
+        code-copy: true
+        code-fold: false
+        execute: false
+        echo: true
+        code-block-background: true
+        code-line-numbers: true
+
+

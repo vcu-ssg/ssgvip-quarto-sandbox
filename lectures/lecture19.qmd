@@ -1,0 +1,59 @@
+---
+title: "Mobile App Development (8)"
+lecture-number: 19
+date: 2023-03-01
+---
+
+
+## Housekeeping
+
+- Today - More app snippeds
+- No class on Friday!  Enjoy your break!
+
+
+## Checklist from Monday {.smaller}
+
+- Create fresh app
+- Add an image
+- Add a card
+- Create a screen component
+- Move component to separate file
+- Create global style file
+
+**NOTE: when ever you change the file/folder structure, you need to close the server, rerun *npm install*, and then restart the server**.
+
+
+## Checklist for today {.smaller}
+
+::::{.columns}
+
+:::{.column}
+- Add data structure
+- Connect Image to data structure
+- Add *Pressable* button
+- Create my button component
+- Add props to change name
+- Create flexible number of buttons
+:::
+
+:::{.column}
+:::
+
+
+::::
+
+## Helpers
+
+- Card - React Native elements
+    <https://reactnativeelements.com/docs/1.2.0/card>
+- Pressable - core component
+    <https://reactnative.dev/docs/pressable>
+- Bottom navigation and screens
+    <https://reactnavigation.org/docs/bottom-tab-navigator/>
+
+## {background-color="black"}
+
+### Final thoughts
+
+- Questions? :question:    Post to discord! :grin:
+

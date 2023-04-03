@@ -1,0 +1,42 @@
+---
+title: "Design Process and Figma"
+subtitle: "Lecture 3"
+date: 2023-01-23
+
+# References
+#   Emoji picker: drops in clipboard; alternate skin tones!
+#   https://github-emoji-picker.vercel.app/
+---
+
+
+## Housekeeping
+
+- Still missing lots of POGIL submissions from last week
+- Homework 2
+    - POSTED and available [from Canvas](https://virginiacommonwealth.instructure.com/courses/74903/assignments/640319)
+    - DUE Sunday, 11pm.  Early points awarded if submitted by Friday.
+    - Individual project - Figma-tize your resume
+- Homework 1 and POGIL 1 still being graded. We'll be slow as we get warmed up.
+
+## Homework 1 discussion
+
+- Hard? Easy?
+- How can instructions be improved?
+- Did you google for instructions? In class I saw many getting frustrated.
+- Mac instructions ... TMI? Just right?
+
+## POGIL - Design Process
+
+![QR code to POGIL](assets/qrcode-POGIL2-form.png)
+
+
+<https://lowkeylabs.github.io/cmsc475-202320-materials/pogil2-form.pdf>
+
+
+
+## {background-color="black"}
+
+### Final thoughts 
+
+- Questions? :question:    Post to discord! :grin:
+

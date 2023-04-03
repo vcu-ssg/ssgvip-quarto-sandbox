@@ -1,0 +1,41 @@
+---
+title: "Welcome to CMSC 475"
+subtitle: "Lecture 1"
+date: 2023-01-18
+---
+
+## Housekeeping
+
+Lots of stuff to do as we get this engine fired up
+
+- Visit the course canvas and get acclimated
+- Get started on homework 1 (software setup)
+- Join the course discord (change your server name)
+- Do the quick student survey
+
+- Friday: work day for homework 1 - laptop party
+
+## Review Canvas
+
+![](qrcode_cmsc475_canvas.png){fig-align="center"}
+
+<https://virginiacommonwealth.instructure.com/courses/74903>
+
+## UI/UX Jobs - our first POGIL
+
+Process Oriented Guided Inquiry Learning
+
+![](qrcode_pogil1.png){fig-align="center"}
+
+<https://lowkeylabs.github.io/cmsc475-202320-lectures/pogil1-form.pdf>
+
+
+## {background-color="black"}
+
+### Final thoughts 
+
+- Homework 1 - get started!
+- Friday - bring your laptop
+
+- Questions? :question:    Post to discord! :grin:
+

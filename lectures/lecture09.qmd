@@ -1,0 +1,64 @@
+---
+title: "Prototypes and mockups"
+lecture-number: 9
+date: 2023-02-06
+
+# References
+#   Emoji picker: drops in clipboard; alternate skin tones!
+#   https://github-emoji-picker.vercel.app/
+---
+
+## Housekeeping
+
+- This week we focus on mockups and prototypes
+- Expect some iteration with your storyboard!
+- Homework 4 due Sunday (early credit for Friday)
+
+
+## Concepts and considerations {.smaller}
+
+1. Usability: designing interfaces that are easy to use and understand
+
+1. Interaction design: creating interfaces that enable natural and efficient interaction with users
+
+1. Visual design: using color, typography, and other visual elements to create aesthetically pleasing and functional interfaces
+
+1. User-centered design: putting the needs and goals of users at the center of design decisions
+
+1. Information architecture: organizing and structuring information in a way that supports users' needs and goals
+
+1. Accessibility: ensuring that interfaces can be used by people with disabilities
+
+1. User testing and feedback: evaluating interfaces through user testing and incorporating feedback to improve design.
+
+
+## Practice {.smaller}
+
+::::{.columns}
+
+:::{.column}
+
+**Problem**: I struggle to recall student names. It's kind of embarrasing.
+
+To help, Banner provides
+instructors with a picture list of faces (JPG are findable.) This isn't enough!
+
+There has to be a better way!  :cry:
+
+:::
+
+:::{.column .absolute top=0 right=0}
+
+![](assets/student-pictures-example.png)
+
+:::
+
+::::
+
+
+## {background-color="black"}
+
+### Final thoughts
+
+- Questions? :question:    Post to discord! :grin:
+

@@ -1,0 +1,25 @@
+---
+title: "Mobile App Development (4)"
+lecture-number: 15
+date: 2023-02-20
+---
+
+## Housekeeping
+
+- This week - we get to build/code a user interface!!!
+- Homework 6 due Sunday (early credit for Friday)
+
+## Homework 6
+
+Review homework assignment:
+
+<https://lowkeylabs.github.io/cmsc475-202320-materials/homework6.html>
+
+Develop 
+
+## {background-color="black"}
+
+### Final thoughts
+
+- Questions? :question:    Post to discord! :grin:
+

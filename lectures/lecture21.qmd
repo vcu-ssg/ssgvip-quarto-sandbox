@@ -1,0 +1,33 @@
+---
+title: "Mobile App Development (10)"
+lecture-number: 21
+date: 2023-03-13
+---
+
+
+## Housekeeping
+
+- Today - A discussion of what's happening in the background of a react-native app.
+
+- See [Canvas - Lecture materials Week 9](https://virginiacommonwealth.instructure.com/courses/74903/pages/week-9-lecture-materials) for the videos.
+
+## Document Object Model
+
+![](assets/dom-tree.png){fig-align="center"}
+
+## Preserving and Resetting state
+
+![](assets/react-components-dom.png){fig-align="center"}
+
+## Additional Reading
+
+
+<https://beta.reactjs.org/learn/preserving-and-resetting-state>
+
+
+## {background-color="black"}
+
+### Final thoughts
+
+- Questions? :question:    Post to discord! :grin:
+
