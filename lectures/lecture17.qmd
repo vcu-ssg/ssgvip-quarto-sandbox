@@ -1,0 +1,40 @@
+---
+title: "Mobile App Development (6)"
+lecture-number: 17
+date: 2023-02-24
+---
+
+
+## Housekeeping
+
+- Today - getting everything to work on your laptop and phone
+- Screen pics - Homework 5 due Sunday (early credit for Friday)
+
+## Homework 5 {.smaller}
+
+::::{.columns}
+
+:::{.column}
+```{bash}
+// hello world
+a = "hello world";
+```
+:::
+
+
+:::{.column}
+```{bash}
+// hello world
+a = "hello world";
+```
+:::
+
+
+::::
+
+## {background-color="black"}
+
+### Final thoughts
+
+- Questions? :question:    Post to discord! :grin:
+

@@ -1,0 +1,18 @@
+---
+title: "Mobile App Development (3)"
+lecture-number: 14
+date: 2023-02-17
+---
+
+
+## Housekeeping
+
+- Today - getting everything to work on your laptop and phone
+- Screen pics - Homework 5 due Sunday (early credit for Friday)
+
+## {background-color="black"}
+
+### Final thoughts
+
+- Questions? :question:    Post to discord! :grin:
+

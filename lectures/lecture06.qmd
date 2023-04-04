@@ -1,0 +1,52 @@
+---
+title: "Storyboards and Wireframes"
+lecture-number: 6
+date: 2023-01-30
+
+# References
+#   Emoji picker: drops in clipboard; alternate skin tones!
+#   https://github-emoji-picker.vercel.app/
+---
+
+## Housekeeping {.smaller}
+
+- This week we focus on storyboarding and wireframes
+- Homework 3 due Sunday (early credit for Friday)
+    - Build around storyboarding and wireframing
+    - Construct and submit a storyboard
+    - Select a four or panels and create wireframes
+    - Select wireframes focused on picking/matching
+
+- Today's POGIL - Storyboards and Wireframes
+- Model 1 - Pick 4 or 5 questions (don't start at top), 3-4 minutes each
+
+
+## Practice {.smaller}
+
+::::{.columns}
+
+:::{.column}
+
+**Problem**: I struggle to recall student names. It's kind of embarrasing.
+
+To help, Banner provides
+instructors with a picture list of faces (JPG are findable.) This isn't enough!
+
+There has to be a better way!  :cry:
+
+:::
+
+:::{.column .absolute top=0 right=0}
+
+![](assets/student-pictures-example.png)
+
+:::
+
+::::
+
+## {background-color="black"}
+
+### Final thoughts
+
+- Questions? :question:    Post to discord! :grin:
+

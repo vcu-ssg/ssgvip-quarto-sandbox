@@ -1,0 +1,93 @@
+/*-- scss:defaults --*/
+
+// $body-bg: #191919;
+// $body-color: #fff;
+// $link-color: #42affa;
+
+// fonts
+//$font-family-sans-serif: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif !default;
+
+// colors
+$body-bg: #f0f1eb !default;
+$body-color: #000 !default;
+$link-color: #51483d !default;
+$selection-bg: #26351c !default;
+
+// headings
+//$presentation-heading-font: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif !default;
+
+$presentation-heading-color: #383d3d !default;
+$presentation-block-margin: 50px;
+$presentation-h1-font-size: 2.0em;
+
+
+/*-- scss:rules --*/
+
+.reveal .slide blockquote {
+  border-left: 3px solid $text-muted;
+  padding-left: 0.5em;
+}
+
+.reveal .slide h2 {
+  border: 0px solid black;
+  margin-top: 0;
+  text-align: center;
+  background-color: red;
+  padding-bottom: 0;
+  margin-bottom: 0.5em;
+}
+
+
+.reveal .slide .column h3 {
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+  font-size: smaller;
+//  margin-top: 0;
+  text-align: center;
+//  background-color: grayscale( #dddddddd );
+//  padding-bottom: 0;
+//  margin-bottom: 0.0em;
+}
+
+.reveal .slide .column li {
+//  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+  font-size: 14pt;
+//  margin-top: 0;
+//  background-color: grayscale( #dddddddd );
+//  padding-bottom: 0;
+//  margin-bottom: 0.0em;
+}
+
+.reveal .slide .lastslide {
+  display: flex;
+  margin-top: 0;
+  padding-top: 0;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid black;
+}
+
+/*
+  color: blue;
+  background-color: gray;
+//  display: fixed;
+  position: relative;
+  margin-top: 0;
+  border-top-width: 0;
+  padding-top: 0;
+  top
+  top: 0;
+  left: 0;
+  border: 1px solid black;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 4em;
+  z-index: 2;
+}
+
+*/

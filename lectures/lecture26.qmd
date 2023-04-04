@@ -1,0 +1,15 @@
+---
+title: "Mobile App Development (12)"
+lecture-number: 26
+date: 2023-03-24
+---
+
+
+## Housekeeping
+
+- Today - open lab session - as we get closer to app completion, I'm providing class time to answer questions.
+
+
+## {background-color="black"}
+
+

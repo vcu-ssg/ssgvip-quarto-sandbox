@@ -1,0 +1,37 @@
+---
+title: "Mobile App Development (11)"
+lecture-number: 22
+date: 2023-03-15
+---
+
+## Housekeeping
+
+- Work session today: where are your pain points?
+
+- Work session on Friday.
+
+## Notes on HW6
+
+FIRST - As noted in the description, I would like a VIDEO (.mp4) submitted in your repository. Both iPhones and Androids offer apps that can take a video of your screen while you run your app AND can record your voice at the same time. (Earlier I'd mentioned something about screen shot images rather than video. This was before I extended the deadline. With the extension, I want my video back!)
+
+## Notes on HW6
+
+SECOND - don't worry to much about PERFECTLY matching your Figma prototype.  Review the scoring rubric!  The project is worth 50 points, the matching part is worth 10/50, and you get 5/10 for submitting something that works but isn't close, 8/10 for being somewhat close.  The law of diminishing returns definitely applies, don't kill yourself for those final two points!
+
+## Notes on HW6
+
+THIRD - This is a UI/UX class NOT a database class. SO - don't worry about calling an external API to pull data across. Drop your images into a folder within your application and hardcode them with a require statement.
+
+## Notes on HW6
+
+FINALLY - This is a UI/UX class NOT a mobile app development class. My goal is for you to get a feel for how to design and deploy mobile user interfaces, from ideation to figma-design to figma-prototype to device-coding-and-implementation.
+
+nI DO NOT expect you to be front-end experts with only four weeks of fiddling around. But, I do hope that you gain an appreciation for the overall process, become comfortable with the tool sets and mindset, and can feel comfortable talking about it with others.
+
+
+## {background-color="black"}
+
+### Final thoughts
+
+- Questions? :question:    Post to discord! :grin:
+

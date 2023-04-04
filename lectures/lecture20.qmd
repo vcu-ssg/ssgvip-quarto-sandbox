@@ -1,0 +1,225 @@
+---
+title: "Mobile App Development (9)"
+lecture-number: 20
+date: 2023-03-03
+---
+
+
+## Housekeeping
+
+- Today - Sharing code for HW6 demo. No class, this is posted on-line only.
+
+- In the following screens I provide and annotate the source code for the application I demonstrated in class on Wednesday.
+
+- See [Canvas - Lecture materials Week 7](https://virginiacommonwealth.instructure.com/courses/74903/pages/week-7-lecture-materials?module_item_id=257152) for the videos.
+
+
+## App.js {.smaller}
+
+::::{.columns}
+
+:::{.column width="45%"}
+- You can cut/page this to replace your App.js
+- Line 26 is the main entry point for this program - it uses *export default* to tell this to react-native.  The actual name *MyTabs* doesn't matter.
+- *App* (line 18) is not used and can be deleted. I left it in case I need to make it the *export default* again.
+- Line 3 imports global styles. This file is stored in the ./pages folder.
+- Use this link to learn about Bottom navigation and screens
+    <https://reactnavigation.org/docs/bottom-tab-navigator/>
+- You'll need to *npm install react-nativation/bottom-tabs* See instructions above!
+- Lines 4 and 5 are used to create the bottom navigation bar
+- Line 8 is uses a *createBottomTabNavigator* factory to create the Tab object for later use (see line 29).
+- Don't forget *\<NavigationContainer\>* wrapper on line 28 and 33.
+- Line 30 - the *name=* is used to set the button text. The *component=* sets the name of the component to be executed when the button/tab is pressed.
+:::
+
+:::{.column width="55%"}
+
+```{bash}
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View, Image } from 'react-native';
+import { globalStyles } from './pages/GlobalStyles.js';
+import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { MyScreen } from "./pages/MyScreen.js";
+
+const Tab = createBottomTabNavigator();
+
+function MyScreen2() {
+  return (
+    <View style={globalStyles.container}>
+      <Text>Hello world!</Text>
+    </View>
+  );
+}
+
+function App() {
+  return (
+    <>
+    <MyScreen />
+    </>
+  );
+}
+
+export default function MyTabs() {
+  return (
+    <NavigationContainer>
+      <Tab.Navigator>
+        <Tab.Screen name="MyScreen" component={MyScreen} />
+        <Tab.Screen name="MyScreen2" component={MyScreen2} />
+      </Tab.Navigator>
+    </NavigationContainer>
+  );
+}
+```
+
+:::
+
+::::
+
+## MyScreen.js {.smaller}
+
+::::{.columns}
+
+:::{.column width="45%"}
+- Line 5 imports global styles. No styles are in this file.
+- Line 2 uses *Pressable* for the buttons and *Modal* for the pop up screen.
+- Lines 7-14 is a javascript list of objects. Each object has an *id*, *name* and *image*.
+- The images are *statically loaded* at compile time using the *require* statement.
+- Like in the video, I recommend creating a list with 1 object first, then add more once you get the syntax correct.
+- Lines 16-33 create a *MyButton* function wrapper around *Pressable*. It helps keep my main code (Lines 84-90) cleaner.
+- Lines 39-42 create *state* variables in react-native.
+- Line 40: *imageId* is used to track which picture is showing. the *useState(0)* code sets the initial value of *imageId* to the value in the parenthesis - in this case *0*. The *setImageId* is a function that is called to change the value of *imageId*.  See line 50.
+- Function *DoMe* (lines 44-54) is called whenever a button is pressed. See Line 87.
+
+:::
+
+:::{.column width="55%"}
+
+```{bash}
+import React, {useState} from 'react';
+import { Pressable, StyleSheet, Text, View, Image, Modal } from 'react-native';
+import { Card } from 'react-native-elements';
+
+import { globalStyles } from './GlobalStyles';
+
+var database = [
+{id:"0", name:"John Leonard",image:require("../assets/cartoonish.jpg"),notes:"A brief bio of Dr. Leonard!"},
+{id:"1", name:"Mr. Krabs",image:require("../assets/mr-krabs.png"), notes:"He makes the best Krabby Patties!"},
+{id:"2", name:"Spongebob Squarepants",image:require("../assets/spongebob-squarepants.png")},
+{id:"3", name:"Patrick Star",image:require("../assets/patrick-star.png")},
+{id:"4", name:"Sandy Cheeks",image:require("../assets/sandy-cheeks.png")},
+{id:"5", name:"Squidward Tentacles",image:require("../assets/squidward-tentacles.png")}
+];
+
+function MyButton( props ){
+    return (
+     <Pressable
+        onPress={() => {
+          props.onPressed();
+        }}
+        style={({pressed}) => [
+          {
+            backgroundColor: pressed ? 'darkcyan' : 'cyan',
+          },
+          globalStyles.wrapperCustom,
+        ]}>
+        {({pressed}) => (
+          <Text style={globalStyles.text}>{ props.name }</Text>
+        )}
+      </Pressable>        
+    );
+}
+
+
+
+export function MyScreen() {
+
+    const [timesPressed, setTimesPressed ] = useState(0);
+    const [ imageId, setImageId ] = useState(0);
+    const [modalVisible, setModalVisible] = useState(false);
+    const [ guess, setGuess ] = useState( imageId );
+
+    function DoMe( i ){
+
+      setGuess( i );
+      if (imageId==i){
+        setModalVisible( false );
+
+        setImageId( Math.floor(Math.random() * database.length ) );
+      } else {
+        setModalVisible( true );
+      }
+    }
+
+    return (
+      <View style={globalStyles.container}>
+        <Card>
+          <Image style={globalStyles.cartoon} source={database[imageId].image} />
+          <Text>{database[imageId].notes}</Text>
+        </Card>
+
+        <Modal
+          animationType="slide"
+          transparent={true}
+          visible={modalVisible}
+          onRequestClose={() => {
+            Alert.alert('Modal has been closed.');
+            setModalVisible(!modalVisible);
+        }}>
+          <View style={globalStyles.centeredView}>
+            <View style={globalStyles.modalView}>
+              <Text style={globalStyles.modalText}>Sorry, {database[guess].name} is incorrect!</Text>
+              <Pressable
+                style={[globalStyles.button, globalStyles.buttonClose]}
+                onPress={() => {
+                   setModalVisible(!modalVisible);
+                } }>
+                <Text style={globalStyles.textStyle}>Try Again!</Text>
+              </Pressable>
+            </View>
+          </View>
+        </Modal>
+        <View style={{flex: 0, flexDirection:"row", flexWrap:"wrap",justifyContent:"center"}}>
+            { database.map( (item)=>{
+                return (
+                <MyButton onPressed={()=>DoMe( item.id )} key={item.id} name={item.name} id={item.id} />
+                );
+            })}
+        </View>
+      </View>
+    );
+  }
+
+```
+
+:::
+
+::::
+
+## MyScreen.js (more notes)  {.smaller}
+
+::::{.columns}
+
+:::{.column width="45%"}
+- Lines 58-61 draw a *Card* with an *Image* inside..
+- Line 59 sets the *Image source* using the *imageId* as index into the list we created earlier on line 7.
+- Line 60 shows some text for any element with *notes* field in the object.
+- Lines 63-80 shows a *Modal* box that pops up on the screen. The *visibility* of the model is set inside the *DoMe* function depending on whether the correct name/Button is selected.  The
+*Modal* is responsible for turning itself off.
+- Lines 84-90 show the buttons. One button for each element in the database list.
+- Line 85 shows how to use the javascript *map* function to iterate through each element in list, creating a new button and assigning a custom call to *DoMe*.
+
+:::
+
+:::{.column}
+&nbsp;
+:::
+
+::::
+
+## {background-color="black"}
+
+### Final thoughts
+
+- Questions? :question:    Post to discord! :grin:
+

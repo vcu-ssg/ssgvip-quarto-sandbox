@@ -1,0 +1,122 @@
+---
+title: "Mobile App Development (5)"
+lecture-number: 16
+date: 2023-02-22
+---
+
+
+## Housekeeping
+
+- Today - Getting beyond the starter program
+- HOMEWORK 6
+    - Video of your phone and your navigation
+    - Low stakes - I realize that it all won't be working
+    - This is a challenging assignment
+        - follow a process
+        - get started now!
+
+## Homework 6 Checklist
+
+- Download the project repository,
+- Create expo react native app named HW6 under the main README folder,
+- CD into HW6 and run the App.js to make sure all works,
+- Find a larger snack/program and start pulling components into your program
+
+
+## Key React Native concepts
+
+- React Fundamentals <https://reactnative.dev/docs/intro-react>
+
+- React Native Core and Native Components <https://reactnative.dev/docs/intro-react-native-components>
+
+- React Native Core Components <https://reactnative.dev/docs/components-and-apis>
+
+- Layout with Flexbox <https://reactnative.dev/docs/flexbox>
+
+## React Fundamental Concepts
+
+- [Writing React and React Native code](https://reactnative.dev/docs/intro-react)
+
+    - [Typescript vs Javascript](https://www.guru99.com/typescript-vs-javascript.html)
+
+    - [Functions vs classes](https://reactnative.dev/docs/intro-react#your-first-component)
+
+- [JSX (Javascript XML)](https://www.w3schools.com/react/react_jsx.asp)
+
+- [Props](https://reactnative.dev/docs/intro-react#props)
+
+- [State](https://reactnative.dev/docs/intro-react#state)
+
+
+## Getting beyond the starter program
+
+- [Follow a tutorial to create a working application](https://docs.expo.dev/tutorial/introduction/)
+
+- [Snag a larger, working example. Example: bottom navigation](https://snack.expo.dev/@aboutreact/bottom-navigation-example?session_id=snack-session-CxUjYtYnj
+)
+
+- Using NPM INSTALL to add libraries to *package.json*
+
+- Reading error messages / Trouble Shooting
+
+
+## Sample Code: Dynamic images {.smaller}
+
+::::{.columns}
+
+:::{.column}
+Create JS file to hold list of pictures (ProfilesDB.js)
+```{bash}
+const Profiles = [
+  {
+    id: '1',
+    name: 'Peter Parker',
+    src: require('../images/user1.png'),
+    age: '70',
+  },
+  {
+    id: '2',
+    name: 'Barack Obama',
+    src: require('../images/user2.png'),
+    age: '19',
+  },
+  {
+    id: '3',
+    name: 'Hilary Clinton',
+    src: require('../images/user3.png'),
+    age: '50',
+  },
+];
+
+export default Profiles;
+```
+:::
+
+
+:::{.column}
+Import the file into a component using FlatList
+```{bash}
+import Profiles from './ProfilesDB.js';
+
+<FlatList
+  data={Profiles}
+  keyExtractor={(item, index) => item.id}
+  renderItem={({item}) => (
+    <View>
+      <Image source={item.src} />
+      <Text>{item.name}</Text>
+    </View>
+  )}
+/>
+```
+:::
+
+
+::::
+
+## {background-color="black"}
+
+### Final thoughts
+
+- Questions? :question:    Post to discord! :grin:
+

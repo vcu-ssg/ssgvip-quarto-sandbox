@@ -1,0 +1,93 @@
+---
+title: "Mobile App Development (13)"
+lecture-number: 24
+date: 2023-03-20
+---
+
+## Housekeeping
+
+- Today
+    - Homework 6 notes
+    - Use of GitIgnore
+    - Lots of code snippets
+
+## Homework 6 notes {.smaller}
+
+1. Please RESUBMIT your homework if you submitted it prior to Sunday evening. The AUTOGRADER CHANGED, and your assignment needs to be resubmitted and regraded.
+1. BEFORE RESUBMITTING, please add a ".gitignore" file to the main project folder, next to the README.md file. Contents of the .gitignore file are shown below. Adding the .gitignore will SIGNIFICANTLY increase the loading speed of your assignment!  
+1. AUTOGRADING is now worth 15 points, including 10 points for adding the .gitignore file to your project.  
+1. The project is still worth 50 points, the autograder points are incorporated into the "CODE" portion of the rubric.
+
+## Contents of .gitignore file
+
+        node_modules/
+        .expo/
+        dist/
+        npm-debug.*
+        *.jks
+        *.p8
+        *.p12
+        *.key
+        *.mobileprovision
+        *.orig.*
+        web-build/
+        # macOS
+        .DS_Store
+
+## Async storage
+
+<div data-snack-id="@jleonard99/async-storage-example" data-snack-platform="web" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#F9F9F9;border:1px solid var(--color-border);border-radius:4px;height:505px;width:100%"></div>
+<script async src="https://snack.expo.dev/embed.js"></script>
+
+## Image picker
+
+<div data-snack-id="@jleonard99/image-picker" data-snack-platform="web" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#F9F9F9;border:1px solid var(--color-border);border-radius:4px;height:505px;width:100%"></div>
+<script async src="https://snack.expo.dev/embed.js"></script>
+
+## Sign up example with storage
+
+<div data-snack-id="@jleonard99/react-native-example" data-snack-platform="web" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#F9F9F9;border:1px solid var(--color-border);border-radius:4px;height:505px;width:100%"></div>
+<script async src="https://snack.expo.dev/embed.js"></script>
+
+## React example login flow
+
+<div data-snack-id="@jleonard99/react-navigation-auth-example" data-snack-platform="web" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#F9F9F9;border:1px solid var(--color-border);border-radius:4px;height:505px;width:100%"></div>
+<script async src="https://snack.expo.dev/embed.js"></script>
+
+## React navigation flows
+
+<div data-snack-id="@jleonard99/react-navigation-5-boilerplate" data-snack-platform="web" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#F9F9F9;border:1px solid var(--color-border);border-radius:4px;height:505px;width:100%"></div>
+<script async src="https://snack.expo.dev/embed.js"></script>
+
+## Flat list example
+
+<div data-snack-id="@jleonard99/flatlist-example" data-snack-platform="web" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#F9F9F9;border:1px solid var(--color-border);border-radius:4px;height:505px;width:100%"></div>
+<script async src="https://snack.expo.dev/embed.js"></script>
+
+## Button example
+
+<div data-snack-id="@jleonard99/button-example" data-snack-platform="web" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#F9F9F9;border:1px solid var(--color-border);border-radius:4px;height:505px;width:100%"></div>
+<script async src="https://snack.expo.dev/embed.js"></script>
+
+## Basic camera usage
+
+<div data-snack-id="@jleonard99/basic-camera-usage" data-snack-platform="web" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#F9F9F9;border:1px solid var(--color-border);border-radius:4px;height:505px;width:100%"></div>
+<script async src="https://snack.expo.dev/embed.js"></script>
+
+
+## Other docs
+
+- Splash screens: <https://docs.expo.dev/guides/splash-screens/>
+
+- Building a camera app: <https://www.freecodecamp.org/news/how-to-create-a-camera-app-with-expo-and-react-native/>
+
+- Integrating firebase: https://blog.logrocket.com/integrating-firebase-authentication-expo-mobile-app/
+
+
+
+
+
+
+## {background-color="black"}
+
+

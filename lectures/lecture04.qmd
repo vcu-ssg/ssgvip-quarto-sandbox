@@ -1,0 +1,173 @@
+---
+title: "Design Process and Practice"
+subtitle: "Lecture 4"
+lecture-number: 4
+date: 2023-01-25
+
+# References
+#   Emoji picker: drops in clipboard; alternate skin tones!
+#   https://github-emoji-picker.vercel.app/
+---
+
+
+## Housekeeping
+
+- POGIL #1 graded. Grades posted. I'm still accepting them!
+- Complete student survey!!!! (56 of 70 responding)
+- Homework 2
+    - POSTED and available [from Canvas](https://virginiacommonwealth.instructure.com/courses/74903/assignments/640319)
+    - DUE Sunday, 11pm.  Early points awarded if submitted by Friday.
+    - Individual project - Figma-tize your resume
+- FIGMA - join the [Figma CMSC475 team](https://www.figma.com/team_invite/redeem/x6SIzQ38tcHe9RbE8rbXh2)
+
+
+# Issue using GIT CLONE
+
+## Problem - Can't clone repo from CLI
+
+::::{.columns}
+
+:::{.column width="40%"}
+![](assets/github-clone-ssh.png)
+:::
+
+:::{.column width="60%"}
+![](assets/git-ssh-error.png)
+:::
+
+::::
+
+## SSH private and public keys
+
+![](assets/SSH-public-private-key.png){fig-align="center"}
+
+## Solution - share your public key
+
+### High level steps
+
+1. Use SSH keygen to create keys
+1. Copy public key to clipboard
+1. Visit GITHUB user (not repo) settings
+1. Add SSH key to GITHUB
+1. Clone repo using command line
+
+## Step 1: SSH keygen to create keys
+
+::::{.columns layout-valign="top"}
+
+:::{.column width="40%"}
+
+ssh-keygen from CLI
+
+- default *enter* to all prompts
+
+- look in ~/.ssh folder
+
+:::
+
+:::{.column width="60%"}
+![](assets/ssh-keygen-example1.png){vertical-align="top"}
+:::
+
+::::
+
+## Step 2: Copy public key to clipboard
+
+::::{.columns}
+
+:::{.column width="40%"}
+
+type (cat) PUB file to screen
+do it again, piping to clipboard
+
+| clip.exe (on PC)
+
+| pbclip (on Mac)
+
+:::
+
+:::{.column width="60%"}
+![](assets/ssh-clipboard-example.png)
+:::
+
+::::
+
+
+## Step 3: Visit GITHUB user settings
+
+::::{.columns}
+
+:::{.column width="50%"}
+
+![](assets/github-ssh-settings.png)
+:::
+
+:::{.column width="50%"}
+![](assets/github-ssh-addkey.png)
+:::
+
+::::
+
+
+## Step 4: Retry clone - Success!
+
+![](assets/git-clone-noerror.png){fig-align="center"}
+
+
+# Design process
+
+## Double diamond
+
+![](assets/Double_diamond.png){fig-align="center"}
+
+## Double diamond
+
+![](assets/double-diamond3.jpg){fig-align="center"}
+
+
+## Practice {.smaller}
+
+::::{.columns}
+
+:::{.column}
+
+**Problem**: I struggle to recall student names. It's kind of embarrasing.
+
+To help, Banner provides
+instructors with a picture list of faces (JPG are findable.) This isn't enough!
+
+There has to be a better way!  :cry:
+
+:::
+
+:::{.column .absolute top=0 right=0}
+
+![](assets/student-pictures-example.png)
+
+:::
+
+::::
+
+## Practice
+
+### Well ...
+
+- (what now?)
+
+
+## Practice 
+
+| Discover | Define | Develop | Deliver |
+|:--------:|:------:|:-------:|:-------:|
+
+
+: {tbl-colwidths="[25,25,25,25]"}
+
+## {background-color="black"}
+
+### Final thoughts
+
+- Bring ideas for each step on Friday!
+
+- Questions? :question:    Post to discord! :grin:
+

@@ -1,0 +1,42 @@
+---
+title: "Mobile App Development (1)"
+lecture-number: 12
+date: 2023-02-13
+---
+
+
+## Housekeeping
+
+- This week - getting acclimated with the tools!
+- No POGIL this week
+- Homework 5 due Sunday (early credit for Friday)
+    - Submit PNG images from your phone
+    - Very specific names - pay attention!
+- CAREER FAIR - NO CLASS ON WEDNESDAY
+    - Even if you're not participating, GO to get a feel for how it works!
+
+## Introduction to React Native
+
+![](./assets/react-native-bridges.png){fig-align="center"}
+
+## React native program
+
+![](./assets/react-native-hello-world.png){fig-align="center"}
+
+## Homework 5 - Playing with the tools
+
+- Get familiar with the tools
+- Develop your dev work flow
+- Get some easy wins
+- Play around with styles
+- Explore components
+
+<https://lowkeylabs.github.io/cmsc475-202320-materials/homework5.html>
+
+
+## {background-color="black"}
+
+### Final thoughts
+
+- Questions? :question:    Post to discord! :grin:
+

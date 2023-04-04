@@ -1,0 +1,35 @@
+---
+title: "Mobile App Development (12)"
+lecture-number: 23
+date: 2023-03-17
+---
+
+
+## Housekeeping
+
+
+<iframe src="https://codesandbox.io/embed/react-new?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="React"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   >
+</iframe>
+
+## Sample code
+<iframe src="https://codesandbox.io/embed/react-new?codemirror=1&fontsize=14&hidenavigation=1&module=%2Fsrc%2FApp.js&theme=light"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="React"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
+## My first embed!
+<iframe src="https://codesandbox.io/embed/cmsc475-hw6-tutorial1-mzi8b6?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="cmsc475-hw6-tutorial1"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   >
+</iframe>
+

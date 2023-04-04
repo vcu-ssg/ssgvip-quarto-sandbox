@@ -1,0 +1,24 @@
+---
+title: "Mobile App Development (2)"
+lecture-number: 13
+date: 2023-02-15
+---
+
+
+## Housekeeping
+
+- NO CLASS TODAY
+- Visit the CAREER FAIR, 10am-3pm in ERB Atrium
+- Homework 5 due Sunday (early credit for Friday)
+
+## Homework 5
+
+<https://lowkeylabs.github.io/cmsc475-202320-materials/homework5.html>
+
+
+## {background-color="black"}
+
+### Final thoughts
+
+- Questions? :question:    Post to discord! :grin:
+
