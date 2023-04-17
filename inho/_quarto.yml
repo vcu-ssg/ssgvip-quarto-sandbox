@@ -1,0 +1,12 @@
+course-title: "CMSC 475" #course title to go in footer
+instituion: VCU College of Engineering
+project:
+  output-dir: ./rendered
+format:
+  revealjs:
+    theme: [default, vcutheme.scss]
+    logo: assets/bm_CollegeOfEngin_RF_st_4c.png
+    toc: true
+    footer: "{{< meta course-title >}}"
+    controls: false
+    transition: slide

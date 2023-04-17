@@ -1,38 +1,83 @@
 /*-- scss:defaults --*/
 
-$body-bg: #fff;
-$body-color: #000;
-$link-color: #42affa;
-$font-family-sans-serif: Arial, sans-serif;
+$body-bg: #f0f1eb;
+$presentation-heading-color: #3a3a3a;
+$body-color: #777777; //text color
+$link-color: #777777; //url links + icon color
+
+$font-family-sans-serif: Arial, sans-serif; 
+$presentation-title-slide-text-align: left;
+
+$presentation-h1-font-size: 3.2em; //Main Title & Section Title  
+$presentation-h2-font-size: 2em; //Slide 1st Title
+$presentation-h3-font-size:	1.6em; //Slide 2nd Title
+$presentation-font-size-root: 24px;
+$presentation-line-height: 1.8em;
 
 /*-- scss:rules --*/
 
 .reveal {
-  .titleslide {
-      text-align: left !important;
-    p {
-      font-size: 20px;
-      margin-left:8px;
-      color:#898989 !important;
-      margin-bottom:0 !important;
-    }
+  #title-slide, .title-slide {
+    padding-left:1em;
+  }
 
-    .subtitle {
-      font-size: 32px;
-      display: inline-block;
-      &::after {
-        content: "";
-        display: block;
-        height: 3px;
-        width: 120%;
-        background-color:  #898989;
-        margin:8px 0;
-      }
-    }
-  }  
-  .slide-logo {
-    width: 250px !important;
+  #title-slide p, .quarto-title-author { 
+    padding-left: 8px !important;//padding added to sub-title,author, date
+    font-size: 1.4em !important;
+  }
+
+  .quarto-title-authors {
+    justify-content: flex-start !important;
+  }
+
+  .subtitle::after {
+    content: "";
+    display: block;
+    height: 8px;
+    width: 300px;
+    background-color: #F8B300;
+    margin-top:1em;
+    margin-left: -0.1em;
+  }
+  
+  .slide-logo { //footer logo size
+    width: 200px !important;
     height: auto !important;
     max-height: none !important;
+    z-index: 9999;
+  }
+
+  .slide.level2 {
+    overflow: scroll;
+  }
+
+  .slide.level2 h2, #toc-title {
+    margin-bottom:0.8em;
+    margin-top:1em;
+  }
+
+  .slide #TOC ul>li {
+    list-style: none;
+  }
+
+  // .slide .column p {
+  //   font-size: 24px !important;
+  // }
+
+  .mysection { 
+    background: royalblue;
+  }
+
+  .myslide .columns{
+    display: flex;
+    gap: 200px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .reveal {
+    .slide-logo { //footer logo size
+      width: 100px !important;
+    }
   }
 }

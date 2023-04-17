@@ -1,32 +1,26 @@
 ---
-title: VCU Slide Template
+title: "$presentation-h1-font-size"
 subtitle: VCU Slide created using RevealJS
-author: Inho Park
-instituion: VCU College of Engineering
+author: Theme Designed by Inho Park
 date: 04/01/2023
-format:
-  revealjs:
-    theme: [default, vcutheme.scss]
-    logo: images/bm_CollegeOfEngin_RF_st_4c.png
-    controls: true
-    transition: slide
-    template-partials:
-      - title-slide.html
 ---
 
-# Section 1
+# $presentation-h1-font-size
 
-## Getting up
+## $presentation-h2-font-size 
 
 - Turn off alarm
 - Get out of bed
 
-## Going to sleep
+## Overflow {.myslide}
 
-- Get in bed
-- Count sheep
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada id metus at pharetra. Pellentesque tempus, magna sed mattis aliquet, lacus augue tempus libero, gravida lobortis sem nulla blandit urna. Duis in elementum odio. Suspendisse potenti. Fusce non nibh a justo molestie gravida at finibus leo. Sed vulputate libero a orci hendrerit ornare. Sed vestibulum tempus diam, et congue dolor gravida a. Duis risus felis, consequat ut aliquet non, mollis et risus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada id metus at pharetra. Pellentesque tempus, magna sed mattis aliquet, lacus augue tempus libero, gravida lobortis sem nulla blandit urna. Duis in elementum odio. Suspendisse potenti. Fusce non nibh a justo molestie gravida at finibus leo. Sed vulputate libero a orci hendrerit ornare. Sed vestibulum tempus diam, et congue dolor gravida a. Duis risus felis, consequat ut aliquet non, mollis et risus.
 
-# Section 2 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada id metus at pharetra. Pellentesque tempus, magna sed mattis aliquet, lacus augue tempus libero, gravida lobortis sem nulla blandit urna. Duis in elementum odio. Suspendisse potenti. Fusce non nibh a justo molestie gravida at finibus leo. Sed vulputate libero a orci hendrerit ornare. Sed vestibulum tempus diam, et congue dolor gravida a. Duis risus felis, consequat ut aliquet non, mollis et risus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada id metus at pharetra. Pellentesque tempus, magna sed mattis aliquet, lacus augue tempus libero, gravida lobortis sem nulla blandit urna. Duis in elementum odio. Suspendisse potenti. Fusce non nibh a justo molestie gravida at finibus leo. Sed vulputate libero a orci hendrerit ornare. Sed vestibulum tempus diam, et congue dolor gravida a. Duis risus felis, consequat ut aliquet non, mollis et risus.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada id metus at pharetra. Pellentesque tempus, magna sed mattis aliquet, lacus augue tempus libero, gravida lobortis sem nulla blandit urna. Duis in elementum odio. Suspendisse potenti. Fusce non nibh a justo molestie gravida at finibus leo. Sed vulputate libero a orci hendrerit ornare. Sed vestibulum tempus diam, et congue dolor gravida a. Duis risus felis, consequat ut aliquet non, mollis et risus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada id metus at pharetra. Pellentesque tempus, magna sed mattis aliquet, lacus augue tempus libero, gravida lobortis sem nulla blandit urna. Duis in elementum odio. Suspendisse potenti. Fusce non nibh a justo molestie gravida at finibus leo. Sed vulputate libero a orci hendrerit ornare. Sed vestibulum tempus diam, et congue dolor gravida a. Duis risus felis, consequat ut aliquet non, mollis et risus.
+
+# Section 2 {.mysection }
 
 ## Element Matching {auto-animate=true auto-animate-easing="ease-in-out"}
 
@@ -59,3 +53,14 @@ B
 C
 :::
 :::
+
+## Two Columns {.myslide}
+
+:::: {.columns}
+::: {.column}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada id metus at pharetra. Pellentesque tempus, magna sed mattis aliquet, lacus augue tempus libero, gravida lobortis sem nulla blandit urna. Duis in elementum odio. Suspendisse potenti. Fusce non nibh a justo molestie gravida at finibus leo. Sed vulputate libero a orci hendrerit ornare. Sed vestibulum tempus diam, et congue dolor gravida a. Duis risus felis, consequat ut aliquet non, mollis et risus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada id metus at pharetra. Pellentesque tempus, magna sed mattis aliquet, lacus augue tempus libero, gravida lobortis sem nulla blandit urna. Duis in elementum odio. Suspendisse potenti. Fusce non nibh a justo molestie gravida at finibus leo. Sed vulputate libero a orci hendrerit ornare. Sed vestibulum tempus diam, et congue dolor gravida a. Duis risus felis, consequat ut aliquet non, mollis et risus.
+:::
+::: {.column}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada id metus at pharetra. Pellentesque tempus, magna sed mattis aliquet, lacus augue tempus libero, gravida lobortis sem nulla blandit urna. Duis in elementum odio. Suspendisse potenti. Fusce non nibh a justo molestie gravida at finibus leo. Sed vulputate libero a orci hendrerit ornare. Sed vestibulum tempus diam, et congue dolor gravida a. Duis risus felis, consequat ut aliquet non, mollis et risus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada id metus at pharetra. Pellentesque tempus, magna sed mattis aliquet, lacus augue tempus libero, gravida lobortis sem nulla blandit urna. Duis in elementum odio. Suspendisse potenti. Fusce non nibh a justo molestie gravida at finibus leo. Sed vulputate libero a orci hendrerit ornare. Sed vestibulum tempus diam, et congue dolor gravida a. Duis risus felis, consequat ut aliquet non, mollis et risus.
+:::
+::::
