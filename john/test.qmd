@@ -1,5 +1,8 @@
 ---
 title: "hello world"
+format:
+  html:
+    theme: cosmo
 ---
 
 # this is a test
