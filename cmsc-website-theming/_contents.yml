@@ -1,0 +1,10 @@
+website:
+  sidebar:
+    contents:
+
+    - section: "100 level"
+      contents:
+        - href: CMSC101.qmd
+          text: CMSC 101
+        - href: CMSC191.qmd
+          text: CMSC 191

@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: ./rendered
+
+website:
+  title: "VCU Computer Science Courses"
+  search: true
+  navbar:
+    background: primary
+    search: true
+    right: #changed nav menu items to align to the right
+      - text: "Home"
+        file: CMSC101.qmd
+    logo: assets/CS-icon-01.png
+    logo-href: /index.html
+  sidebar:
+    style: "docked"
+    search: false
+    collapse-level: 1
+    contents:
+    - _contents.yml
+
+format:
+  html:
+    theme: quarto_vcutheme.scss #vcu custom quarto theme. 
+    mainfont: 'Roboto' #vcu's body text font.
+    toc: true
+    html-math-method: katex
+
+metadata-files:
+  - _contents.yml
